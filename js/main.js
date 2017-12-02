@@ -55,5 +55,4 @@
     	$('.show-menu').fadeOut('slow');
     });
 
-
 })(jQuery);

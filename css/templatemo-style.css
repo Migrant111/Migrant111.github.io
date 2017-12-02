@@ -263,7 +263,7 @@ h1, h2, h3, h4, h5 {
 }
 .box-content .widget-title {
   font-size: 22px;
-  color: #333;
+  color: #3984FF;
   font-family: 'robotolight';
   margin-bottom: 30px;
 }
@@ -508,8 +508,19 @@ h1, h2, h3, h4, h5 {
 .profile-name {
   font-family: 'robotoregular';
   font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+  /*transform: translate(100px,30px);*/
 }
+.profile-name:hover{
+    text-align: center;
+    background: #5BB38E;
+    color: #fff;
+    transition: all 1s linear;
+    transform: scale(1.2);
+    /*transform: skew(30deg,10deg);*/
 
+}
 .profile-role {
   font-size: 12px;
   margin-bottom: 20px;
